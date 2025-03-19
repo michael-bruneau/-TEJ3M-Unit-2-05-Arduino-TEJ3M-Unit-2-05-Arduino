@@ -15,15 +15,15 @@ const int PIN_8 = 8;
 
 void setup()
 {
-  // Setups pins
-  servoNumber1.attach(PIN_8);
-  servoNumber1.write(0);
+    // Setups pins
+  	servoNumber1.attach(PIN_8);
+  	servoNumber1.write(0);
 }
 
 void loop() {
-  servoNumber1.write(180);
-  delay(blinkDelay); // Wait for 1000 millisecond(s)
+  	servoNumber1.write(180);
+    delay(blinkDelay); // Wait for 1000 millisecond(s)
   
-  servoNumber1.write(0);
-  delay(blinkDelay); // Wait for 1000 millisecond(s)
+  	servoNumber1.write(0);
+	  delay(blinkDelay); // Wait for 1000 millisecond(s)
 }
